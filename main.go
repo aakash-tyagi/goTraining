@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello git")
-	fmt.Println("Hello git")
+	x := 22
+	fmt.Println(x)
+	y := "My name is Bond"
+	fmt.Println(y)
+	z := "James Bond"
+	fmt.Println(z)
+
 }
