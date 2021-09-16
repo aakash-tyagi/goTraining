@@ -18,8 +18,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("njoo")
-
 	account := common.HexToAddress("0x9E07A9DBA2C165640Bb03430BbFeBD178DD2b387")
 
 	balance, err := client.BalanceAt(context.Background(), account, nil)

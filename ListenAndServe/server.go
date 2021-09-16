@@ -8,7 +8,7 @@ import (
 type aakash int
 
 func (m aakash) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "yo lo ban ga server")
+	fmt.Fprintln(w, "Server is Online")
 }
 
 func main() {
